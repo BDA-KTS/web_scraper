@@ -4,8 +4,7 @@
     "required_info": [
         {
             "column_name": "text",
-            "xpath": "//div[@class='govspeak']//text()", 
-            "index": 0
+            "xpath": "//div[@class='govspeak']//text()" 
         },
         {
             "column_name": "date",
