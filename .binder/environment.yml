@@ -105,4 +105,3 @@ dependencies:
       - typing-extensions==4.16.0
       - w3lib==2.4.1
       - zope-interface==8.6
-prefix: C:\Users\khantr\AppData\Local\miniconda3\envs\web-data-collection
