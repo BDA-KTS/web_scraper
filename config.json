@@ -1,4 +1,21 @@
 {
     "input_filepath": "data/input_urls.json",
-    "output_filepath": "scraped_data.tsv"
+    "output_filepath": "scraped_data.tsv",
+    "required_info": [
+        {
+            "column_name": "text",
+            "xpath": "//div[@class='govspeak']//text()", 
+            index: 0
+        },
+        {
+            "column_name": "date",
+            "xpath": "/html/body/div[2]/main/div[2]/div/div[1]/div/dl/dd[2]//text()", 
+            index: 0
+        },
+        {
+            "column_name": "profile_link",
+            "xpath": "/html/body/div[2]/main/div[2]/div/div[1]/div/dl/dd[1]/a[2]/@href", 
+            index: 0
+        }
+    ]
 }
