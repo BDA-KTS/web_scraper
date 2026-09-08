@@ -1,0 +1,4 @@
+{
+    "input_filepath": "data/input_urls.json",
+    "output_filepath": "scraped_data.tsv"
+}
